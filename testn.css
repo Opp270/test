@@ -1,0 +1,359 @@
+body
+{
+	margin: 0px;
+	background-size: cover;
+}
+
+* {
+	box-sizing: border-box;
+  }
+
+  .column {
+	float: left;
+  }
+  
+  .ono{
+	  
+	width: 88%;
+	padding: 7px;
+  }
+
+  .tot{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 27px;
+	width: 12%;
+	cursor: pointer;
+  }
+ 
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+header
+{
+	width: 100%;
+	background-color: rgb(230, 61, 61);
+	position: fixed;
+	height: 8%;
+	top: 0;
+	z-index: 7;
+	
+}
+
+.Logodiv
+{
+	float: right;
+	height: 100%;
+	margin-right: 5%;
+}
+
+.Logo
+{
+	cursor: pointer;
+	
+	height: 100%;
+}
+
+.theme
+{
+	cursor: pointer;
+	height: 60%;
+	margin: auto;
+}
+
+.themediv
+{
+	float: left;
+	height: 100%;
+	margin-left: 2%;
+	width: 90px;
+    padding: auto;
+	display: flex;
+	
+}
+
+.thememassgen{
+   display: none;
+   width: 100%;
+   height: 100%;
+   overflow: visible;
+   position: fixed;
+   top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+   background-color: rgba(0, 0, 0, 0.0);
+   z-index: 8;
+}
+
+.modal-mm
+{
+	
+	height: 15%;
+	position: absolute;
+	display: block;
+	z-index: 1;
+	background-color: rgb(211, 209, 209);
+	border-radius: 7px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	top:6%;
+	left: 5%;
+	
+}
+
+
+
+
+    
+	.switch {
+		position: relative;
+		display: block;
+		width: 250px;
+        height: 33.33%;
+	
+	  }
+	  
+	  .switch input { 
+		opacity: 0;
+		width: 0;
+		height: 0;
+	  }
+	  
+	  .slider {
+		position: absolute;
+		cursor: pointer;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		font-size: 1rem;
+		text-align: center;
+		padding: 1vh;
+		transition: .2s;
+	  }
+	  
+	   
+	#one {
+		background-color: #84b2d8;
+	  }
+
+	#two {
+		background-color: #b0d388;
+	  }
+
+    #three {
+		background-color: #dd8ac8;
+	  }
+	  
+	  
+	  #x1x:checked + #one {
+		background: url(wow2.svg) no-repeat;
+		background-size: cover;
+		color: white;
+		
+	  }
+
+	  #y2y:checked + #two {
+		background: url(wow3.svg) no-repeat;
+		background-size: cover;
+		color: white;
+		
+	  }
+
+	  #z3z:checked + #three {
+		background: url(wow.svg) no-repeat;
+		background-size: cover;
+		color: white;
+
+		
+	  }
+
+	  
+
+
+	 
+	  #three{border-radius: 0px 0px 7px 7px;}
+
+@font-face{
+	src: url(ArabicUIDisplayBlack.otf);
+	font-family: apple;
+}
+
+	  .par{
+		  font-size: 5vh;
+		  display: flex;
+		  
+		  margin-top: 21%;
+		  margin-left: 10%;
+		  text-align: center;
+		  font-family: apple;
+	  }
+
+
+	  .sosn{
+		  position: absolute;
+		  top: 15%;
+		  left: 0px;
+		  z-index: -2;
+	  }
+
+	 /* .doctors{
+        position: absolute;
+		  top: 15%;
+		  right: 70px;
+		  z-index: -2; 
+		  width: 30%;  
+	  }
+
+
+p{
+	font-size: 3vh;
+	text-align: center;
+	
+}
+
+.textt{
+	width: 50%;
+	margin-top: 15%;
+	
+} */
+.zaq {
+	border-radius: 4px;
+	background-color: #f4511e;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	width: 200px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	float: right;
+  }
+  
+  .zaq span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+  }
+  
+  .zaq span:after {
+	content: '\25C1   ';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	left: -50px;
+  }
+  
+  .zaq:hover span {
+	padding-left: 25px;
+  }
+  
+  .zaq:hover span:after {
+	opacity: 1;
+	right: 0;
+  }
+
+
+
+
+
+
+  /* there are nothing! */
+
+  h1, p{
+	font-family: apple;
+	
+}
+
+p{
+	width: 50%;
+	
+}
+  
+  .mnm{
+	  margin-top: 64px;
+  }
+
+  .sf:after {
+	content: "";
+	display: table;
+	clear: both
+  }
+
+  .amod_66 {
+	float: left;
+	width: 66%;
+	padding: 20px 100px 20px 20px;
+	direction: rtl;
+  }
+  
+  .amod_33 {
+	float: right;
+	width: 33%;
+	padding: 20px;
+  }
+
+  
+  .doctors {
+	display: block;
+	height: auto;
+	max-width: 100%;
+  }
+  
+
+
+
+
+  .btnsdiv{
+	  width: 100%;
+	  display: flex;
+	  flex-wrap: wrap;
+	  align-content: center;
+    justify-content: center;
+	  margin-top: 3%;
+	  direction: rtl;
+  }
+
+  .btm{
+	  width: 20%;
+	  height: 10vh;
+	  margin: 44px;
+	  margin-top: 3%;
+	  background-color: rgb(65, 179, 231);
+	  border: 3px solid rgb(53, 32, 172);
+	  cursor: pointer;
+	  border-radius: 5vh;
+	  font-family: apple;
+	  font-size: 2vh;  
+  }
+
+  @media only screen and (max-width: 1025px) {
+	.amod_66,
+	.amod_33 {
+	  width: 100%;
+	  text-align: center;
+	  padding: 20px;
+	}
+	.doctors {
+	  margin: auto;
+	}
+.btm{
+	width: 100vh;
+	margin-top: 3%;
+}
+p{
+	width: 100%;
+	
+}
+
+}
+
+
+	  
+	 
+   
